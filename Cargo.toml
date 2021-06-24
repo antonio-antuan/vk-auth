@@ -2,6 +2,20 @@
 name = "vk-auth"
 version = "0.1.0"
 authors = ["aCLr <a.ch.clr@gmail.com>"]
+description = "Vkontakte (vk.com) authorization client"
+homepage = "https://github.com/aCLr/vk-auth"
+repository = "https://github.com/aCLr/vk-auth"
+license = "MIT"
+keywords = [ "vkontakte", "vk" ]
+include = [
+    "Cargo.toml",
+    "**/*.rs",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    ".gitignore"
+]
+readme = "README.md"
 edition = "2018"
 
 [dependencies]
