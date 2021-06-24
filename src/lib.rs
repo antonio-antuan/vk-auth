@@ -50,6 +50,18 @@ pub struct AccessToken {
     user_id: String,
 }
 
+impl AccessToken {
+    pub fn access_token(&self) -> &str {
+        &self.access_token
+    }
+    pub fn expires_in(&self) -> Duration {
+        self.expires_in
+    }
+    pub fn user_id(&self) -> &str {
+        &self.user_id
+    }
+}
+
 #[derive(Debug, Clone)]
 pub struct Authorizer {
     client: Client,
