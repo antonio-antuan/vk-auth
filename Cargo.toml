@@ -1,6 +1,7 @@
 [package]
 name = "vk-auth"
 version = "0.1.0"
+authors = ["aCLr <a.ch.clr@gmail.com>"]
 edition = "2018"
 
 [dependencies]
