@@ -1,6 +1,6 @@
 # Vk-auth.
 
-Crate allows you to retrieve access token to API with just phone/email, password and app_id;
+Crate allows you to retrieve access token to API with just phone/email, password and app_id. For usage example see `examples/main.rs`.
 
 ## Example
 ```

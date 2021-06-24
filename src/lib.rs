@@ -160,6 +160,7 @@ impl Authorizer {
                 ParseError::NoFormAction => e,
                 ParseError::InvalidFormInputField => e,
                 ParseError::InvalidRedirectData => {
+                    // if we on login page again, so the auth data was wrong
                     if doc
                         .select(
                             &Selector::parse(r#"form[action*="https://login.vk.com"]"#).unwrap(),
