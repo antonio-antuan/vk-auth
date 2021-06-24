@@ -1,0 +1,15 @@
+[package]
+name = "vk-auth"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json", "cookies"]}
+scraper = "0.12.0"
+anyhow = "1"
+url = "2.2"
+form_urlencoded = "1"
+
+
+[dev-dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros"]}
